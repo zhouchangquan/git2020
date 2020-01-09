@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NEXGIM</string>
+    <string name="course_participant_count">%1$d persons have completed the course</string>
+    <string name="start_train">start training</string>
+    <string name="not_train">offline</string>
+    <string name="difficulty_data_unit">difficulty</string>
+    <string name="course_intro">course intro</string>
+    <string name="exit_app">click again to exit App</string>
+    <string name="riding_ability">riding ability</string>
+    <string name="send">send</string>
+    <string name="china_mobile">+86</string>
+    <string name="already_have_account">account you have</string>
+    <string name="none_account">no account</string>
+    <string name="authorization_setting">authorization setup</string>
+    <string name="authorization_tip">please bind your cell phone number to your account safe to keep your account safe</string>
+    <string name="next_time">later</string>
+    <string name="ok_start_sport">Ok, start now</string>
+    <string name="know_sport_base">In order to ensure better sports experience, we also need to \n know your</string>
+    <string name="welcome_join">welcome to join us\n%s</string>
+    <string name="please_intro_yourself">please introduce yourself</string>
+    <string name="intro_yourself_tip">time to show yourself</string>
+    <string name="get_vcode">get verification code</string>
+    <string name="account_login">login</string>
+    <string name="account_register">register an account</string>
+    <string name="go_register">register</string>
+    <string name="already_mage_user">user already?</string>
+    <string name="immediately_join">join now</string>
+    <string name="account_binding">%s account binding</string>
+    <string name="erg_course_plan_minute">%.0fmin</string>
+    <string name="erg_course_plan_second">%dsec</string>
+    <string name="erg_course_plan_ftp">%d%%FTP</string>
+    <string name="erg_course_plan_power">%.0fw</string>
+    <string name="sport_little_tip">exercise tips</string>
+    <string name="riding_calorie">calorie\nused</string>
+    <string name="course_project">course plant</string>
+    <string name="power_unit">w</string>
+    <string name="rank_unit">rank</string>
+    <string name="heart_rate">heart rate（bpm）</string>
+    <string name="pedalling_rate">pedaling speed（rpm）</string>
+
+    <string name="sport_time_unit">m:s</string>
+    <string name="total_milage">total distance</string>
+    <string name="milage">distancekm</string>
+    <string name="distance_to_previous_one">distance to the one before</string>
+    <string name="speed">speed km/h</string>
+    <string name="fat_burning">fat burning（kcal）</string>
+    <string name="section_time_format">%s / %s</string>
+    <string name="target">target</string>
+    <string name="current_cadence">current pedaling speed</string>
+    <string name="please_wait_course_loading">loading course,please wait</string>
+    <string name="load_course_failed">course loading failed</string>
+    <string name="erg_riding_grade_tip">next stage%s riding%ds，target%.0fw</string>
+    <string name="section_distribution">interval distribution</string>
+    <string name="elevation_m">elevation/m</string>
+    <string name="save">save</string>
+    <string name="device_have_been_linked">device is connected</string>
+    <string name="device_qrcode_bind_tip">1. Please tap the round button to switch into theBluetooth </string>
+    <string name="check_permission_reject">authority application rejected</string>
+    <string name="check_permission_tip">necessary permissions for running the APP are rejected, please go to set</string>
+    <string name="scan_barcode_prompt">put QR code on the knob into the frame to scan</string>
+    <string name="ble_disconnected_and_reconnect">Bluetooth disconnected, reconnecting now...</string>
+    <string name="unstart_ble">Bluetooth disabled</string>
+    <string name="start_ble_bind_device">Please enable theBluetooth to connect theexercise bike</string>
+    <string name="reconnect">reconnect</string>
+    <string name="connect_device">connect device</string>
+    <string name="connecting">connecting...</string>
+    <string name="disconnect">disconnect</string>
+    <string name="unconnect_device">not connected to the exercise bike</string>
+    <string name="already_connect">connected \"%s\"exercise bike</string>
+    <string name="edit">edit</string>
+    <string name="scan_devices">scan bike</string>
+    <string name="bind">bind</string>
+    <string name="no_bind_device">not bound with any device yet</string>
+    <string name="go_bind">go to bind</string>
+    <string name="binded">bound already</string>
+    <string name="sport_time_length">exercise time</string>
+    <string name="complete">completed</string>
+    <string name="not_found_device_tip1">① make sure the device is near you</string>
+    <string name="not_found_device_tip2">② <u>make sure device is not connected</u></string>
+    <string name="not_found_device_tip3">③ check if the exercise bikeis powered on</string>
+    <string name="not_found_device_tip4">④ restart Bluetooth</string>
+    <string name="sport_time_complete_degree">time completed</string>
+    <string name="intensity_complete_degree">intensity completed</string>
+    <string name="synthesis_degree">overall score</string>
+    <string name="take_photo">take a photo</string>
+    <string name="photo_choose">choose from gallery</string>
+    <string name="registration_means_consent">registration means consent</string>
+    <string name="user_service">user agreement</string>
+    <string name="and">and</string>
+    <string name="privacy_clause">privacy clause</string>
+    <string name="go_login">log in</string>
+    <string name="send_vcode_tip">we will send verification code to your cell phone</string>
+    <string name="input_validation_code">input verification code</string>
+    <string name="send_validation_code">send verification code</string>
+    <string name="validation_code">verification code</string>
+    <string name="verification_code_send_to">"6-digit verification code sent to +86 %1$s"</string>
+    <string name="name_empty">name cannot be empty</string>
+    <string name="regain_vcode">resend verification code</string>
+    <string name="regain_vcode_count_down">resend verification code (%d)</string>
+    <string name="qrcode_error">invalid QR code</string>
+    <string name="find_device">find exercise bike</string>
+    <string name="scan_bind">scan and bind</string>
+    <string name="searching">searching</string>
+    <string name="not_found_qrcode">QR code not found？</string>
+    <string name="my_device">my device</string>
+    <string name="new_firmware">NEW</string>
+    <string name="firmware_update">firmware updating</string>
+    <string name="after_sale">after-sales service</string>
+    <string name="device_manage">device management</string>
+    <string name="device_information">device information</string>
+    <string name="add_device">add device</string>
+    <string name="scan_qrcode">scan QR code on the bike</string>
+    <string name="no_device_around">device not found</string>
+    <string name="retry">retry</string>
+    <string name="sport_count">exercise\ncount</string>
+    <string name="sport_count_unit">time</string>
+    <string name="stop">stop</string>
+    <string name="history_detail_hr_nodevice_title">heart rate monitor not connected</string>
+    <string name="history_detail_hr_nodevice_content">connect heart rate monitor to monitor your physical c</string>
+    <string name="history_detail_zone">Zone</string>
+    <string name="height">height</string>
+    <string name="weight">weight</string>
+    <string name="birthday">birthday</string>
+    <string name="next">next</string>
+    <string name="wifi_settings">select WiFi for the bike</string>
+    <string name="set_wifi_connecting">setting up Wi-Fi for the bike</string>
+    <string name="wifi_connected">device already connected with Wi-Fi</string>
+    <string name="user_name_example">New York City Party Secretary</string>
+    <string name="setting">setup</string>
+    <string name="logout">logout</string>
+    <string name="complete_user_message">complete user information</string>
+    <string name="set_name_hint">please enter nickname</string>
+    <string name="click_setting_icon">click to set up the icon</string>
+    <string name="male">♂ male</string>
+    <string name="female">♀ female</string>
+    <string name="male_value">male</string>
+    <string name="female_value">female</string>
+    <string name="gender">gender</string>
+    <string name="input_user_info_tip">info below will be helpful for us to design training for you，\n Don’t </string>
+    <string name="height_unit">cm</string>
+    <string name="weight_unit">kg</string>
+    <string name="riding_power_setting">riding ability setting</string>
+    <string name="start_sport">start exercise</string>
+    <string name="clearBoundDevice">remove bound device (temporary)</string>
+    <string name="update_error">update failed! Please update after restarting the device</string>
+    <string name="updating">updating</string>
+    <string name="device_name">device name</string>
+    <string name="device_wifi">device WiFi</string>
+    <string name="wifi_connect_error">bike WiFi setup failed</string>
+    <string name="wifi_connect_error_tips">1. Please make sure your WiFi password is correct \n2. Please con</string>
+    <string name="riding_mileage">riding\ndistance</string>
+    <string name="vin">frame number</string>
+    <string name="warranty_period">warranty period</string>
+    <string name="electrical_machinery_sn">Motor controller SN code</string>
+    <string name="electrical_machinery_version">motor controller version</string>
+    <string name="device_watch_sn">instrument board SN code</string>
+    <string name="device_watch_version">instrument panel version</string>
+    <string name="find_new_firmware">find new firmware</string>
+    <string name="firmware_update_content">firmware update information</string>
+    <string name="immediately_update">update now</string>
+    <string name="not_connect_device_tip">please connect exercise bike first to get the latest device info</string>
+    <string name="exercise_record">exercise record</string>
+    <string name="sport_all_time">total exercise time</string>
+    <string name="my_sport">my exercise</string>
+    <string name="sport_power">sports ability</string>
+    <string name="mage_school">NEXGIM Academy</string>
+    <string name="main_home">home</string>
+    <string name="sport">find</string>
+    <string name="my">my</string>
+    <string name="personal_information">personal information</string>
+    <string name="change_avatar">avatar</string>
+    <string name="name">nickname</string>
+    <string name="xiaomi_login_cancel">cancel Xiaomi authorization</string>
+    <string name="account_manage">account management</string>
+    <string name="help_and_feedback">help and feedback</string>
+    <string name="clear_cache">clear cache</string>
+    <string name="about">about</string>
+    <string name="other_login_account">third party account binding</string>
+    <string name="change_phone">change cell phone</string>
+    <string name="weixin">WeChat</string>
+    <string name="weixin_uninstall">WeChat not installed onthe cell phone</string>
+    <string name="weixin_account">WeChat account</string>
+    <string name="weixin_denied">WeChat authorization denied</string>
+    <string name="weixin_user_cancel">cancel WeChat authorization</string>
+    <string name="xiaomi">Xiaomi</string>
+    <string name="xiaomi_account">Xiaomi account</string>
+    <string name="submit_unbind">Sure to unbind?</string>
+    <string name="unbind">unbind</string>
+    <string name="not_bind">not bound yet</string>
+    <string name="before_phone">old cell phone number</string>
+    <string name="new_phone">new cell phone number</string>
+    <string name="bind_new_phone">bind to the new cell phone number</string>
+    <string name="phone_lose_call_service">contact the customer service for phone loss or stop using the phone</string>
+    <string name="submit">submit</string>
+    <string name="mage_privacy">"NEXGIM Service Use Agreement and NEXGIM Personal Information Protection Policy"</string>
+    <string name="device_binding_guide">start your riding journey</string>
+    <string name="check_your_capability">You haven’t tested yourself yet</string>
+    <string name="know_your_capability">know yourself to have the right training</string>
+    <string name="go_assess">Start now</string>
+    <string name="save_target">Confirm target</string>
+    <string name="setting_target_distance">set the target distance（km）</string>
+    <string name="no_sport_summary">no sports record</string>
+    <string name="k_unit">kcal</string>
+    <string name="ride_distance">riding distance</string>
+    <string name="total_calorie">total calorie</string>
+    <string name="sport_record_distance_float">%.1fkm</string>
+    <string name="sport_record_calorie">%dkcal</string>
+    <string name="sport_record_power">%.0fw</string>
+    <string name="sport_summary_decs">last training %d days ago</string>
+    <string name="sport_summary_decs_ride">last riding %d days ago</string>
+    <string name="often_question">FAQ</string>
+    <string name="proposal_and_feedback">suggestions and feedback</string>
+    <string name="proposal_and_feedback_tip">please give details about theproblems, fault, etc.</string>
+    <string name="setting_target_time">set riding time (min)</string>
+    <string name="setting_target_calorie">set calorie (kcal)</string>
+    <string name="set_target_with_underline">"&lt;u>set target&lt;u> "</string>
+    <string name="qrn_amount_of_exercise">What about your daily amount of exercise?</string>
+    <string name="qrn_amount_of_exercise_des">first we need to know your physical conditions</string>
+    <string name="qnr_endurance">Have you tried any endurance exercise?</string>
+    <string name="qnr_endurance_decs">eg. running, riding, swimming for longer than 30min every time</string>
+    <string name="qnr_target">What is your aim?</string>
+    <string name="qnr_target_decs">Set a small goal and then achieve it</string>
+    <string name="ftp_rang_value">%dw-%dw</string>
+    <string name="ftp_rang_low">"%1$dw"</string>
+    <string name="ftp_rang_high">"<![CDATA[>]]>%1$dw"</string>
+    <string name="sport_evaluate">sports evaluation</string>
+    <string name="freeriding_started_intro">start to record data</string>
+    <string name="freeriding_wait_to_start_intro">click to start now</string>
+    <string name="ftp_threshold_desc">FTP %dw indicates the maximum average power output after your steady ridi</string>
+    <string name="ftp_threshold_value">current riding capability %dw</string>
+    <string name="freeriding">free riding</string>
+    <string name="freeriding_end">free riding ended</string>
+    <string name="bluetooth_guide">Please turn on your Bluetooth to connect the device</string>
+    <string name="free_riding_tip">goal almost achieved. Please set a higher goal or complete the current free riding first</string>
+    <string name="cache_clean_success">cache cleaning completed</string>
+    <string name="feedback_success">feedback successful</string>
+    <string name="please_stop_free_riding">free riding not ended, please complete thefree riding</string>
+    <string name="wifi_pwd_hint">Please input WiFi password</string>
+    <string name="refresh">refresh</string>
+    <string name="route_completed_number">%d persons have completed the route</string>
+    <string name="finish_riding">Awesome! Goal achieved!</string>
+    <string name="unfinish_riding">Oops, goal not achieved yet!</string>
+    <string name="check_detail">check details</string>
+    <string name="sport_report">exercise report</string>
+    <string name="route_info">route info</string>
+    <string name="all_course">all courses</string>
+    <string name="kcal_summary">%dkcal consumed this week</string>
+    <string name="sport_consume">equivalent to the calories of %s</string>
+    <string name="sport_consume1">The exercise consumed</string>
+    <string name="energy_consume">Energy consumption</string>
+    <string name="sport_summary_decs_today">exercise done\ntoday</string>
+    <string name="sport_summary_decs_today_ride">Riding done\ntoday</string>
+    <string name="first_ride_tips">start your riding</string>
+    <string name="not_first_ride_tips">continue your riding</string>
+    <string name="connect_guide">connection guide</string>
+    <string name="unconnected">not connected</string>
+    <string name="bind_devices">bind device</string>
+
+    <string name="tips_start_riding">Start your first ride!</string>
+    <string name="device_connected">connected\"MG03 exercise bike\"</string>
+    <string name="ftp_evalue">sports evaluation</string>
+    <string name="ftp_test">FTP capability test</string>
+    <string name="time_length">time</string>
+    <string name="return_to_ride">Return to home to start "free riding"</string>
+    <string name="bluetooth_disable">Bluetooth disabled</string>
+    <string name="please_enable_bluetooth">Please enable your Bluetooth to connect the device</string>
+    <string name="exmaple_four">4 min</string>
+    <string name="example_ftp">50%FTP</string>
+    <string name="example_power">180w</string>
+    <string name="desc_well">Well trained, good physical conditions</string>
+    <string name="my_zone">My power zone</string>
+    <string name="train_purpose">different intensity ranges have different training purposes</string>
+    <string name="current_ftp">current FTP:</string>
+    <string name="current_level">current level</string>
+    <string name="professional">professional level,</string>
+    <string name="example_ftp_desc">Riding capability is about 226w</string>
+    <string name="ftp_comment">commentson capability</string>
+    <string name="ftp_zone_detail">Learn to know my power range</string>
+    <string name="re_evalue">reevaluate</string>
+    <string name="example_zone">Zone1</string>
+    <string name="zone_warm">warm-up zone</string>
+    <string name="example_rpm">RPM70</string>
+    <string name="example_time" translatable="false">46:23</string>
+    <string name="example_calorie">376kcal</string>
+    <string name="example_rider_decs">Diligent rider</string>
+    <string name="example_rank">/249</string>
+    <string name="example_torque" translatable="false">"20.5"</string>
+    <string name="example_participant">345 participants</string>
+    <string name="example_feekback">0/1000</string>
+    <string name="example_page">1/3</string>
+    <string name="ascend">accumulative climb</string>
+    <string name="distance_unit_meter">m</string>
+    <string name="route_decs">route intro</string>
+    <string name="choose_course">choose your course here</string>
+    <string name="get_a_device">get a bike within 3min</string>
+    <string name="total_distance">total distance</string>
+    <string name="start_uper">START</string>
+    <string name="target_tips">challenge a small goal</string>
+    <string name="start_ride">start to ride</string>
+    <string name="example_calorie_equal">≈2x</string>
+    <string name="today_sport">exercise\ntoday</string>
+    <string name="today_calorie">calorie\ntoday</string>
+    <string name="week_sport">exercise this week</string>
+    <string name="month">month</string>
+    <string name="day">daily</string>
+    <string name="course_join_person_count">%d participants</string>
+    <string name="change_success">saving successful</string>
+    <string name="other_login">login withother accounts</string>
+    <string name="login_title">more surprisesafter logon</string>
+    <string name="unregister_auto_login">automatic logon after unregistered cell phone is verified</string>
+    <string name="binding_phone">bind to a cell phone number</string>
+    <string name="please_binding_phone">Please bind your cell phone number to keep your account safe</string>
+    <string name="after_sale_number">400-090-9628</string>
+    <string name="mage_agreement"><u>User Agreement</u> </string>
+    <string name="mage_copyright">Copyright © 2019 MageFitness</string>
+    <string name="dialog_agree_yes">Yes</string>
+    <string name="dialog_agree_message"> <![CDATA[Welcome to NEXGIM！<br> We have updated《<font color="#03E0C6"><a href="https://static.qiteck.net/license.html" >user agreements</a></font>》、《<font color="#03E0C6"><a href="https://static.qiteck.net/privacy.html">  privacy policies</a></font>》in accordance with the latest laws and regulations。At the same time, NEXGIM needs to connect to the network, locate and turn on Bluetooth. You need to read and agree to the above policy terms before you can use this software.]]> </string>
+    <string name="statement">statement and clauses</string>
+    <string name="exit">exit</string>
+    <string name="customer_hotline">customer service hotline</string>
+    <string name="hotline_time">service time</string>
+    <string name="hotline_time_detail">9:00-18:00</string>
+    <string name="contact_hotline">contact customer service</string>
+    <string name="logout_comfirm">logout?</string>
+    <string name="network_unable">Network not available, please confirm whether to turn iton</string>
+    <string name="cache_manage">cache management</string>
+    <string name="clear_local_cache">clear local cache</string>
+    <string name="auto_video_cache">automatic video cache</string>
+    <string name="video_cache_tip">Video played will not be downloaded again after starting</string>
+    <string name="already_new_version">Already the new version</string>
+    <string name="skip">skip</string>
+    <string name="user_infor_skip">Course, route and other personalized functions need to refer to your</string>
+    <string name="immediately_complete">complete it now</string>
+    <string name="not_complete">to be completed</string>
+    <string name="current_login_account">login current account</string>
+
+
+    <string name="sms_wrong_phone">wrong cell phone number</string>
+    <string name="sms_too_often">send SMS too often</string>
+    <string name="sms_send_fail">failed to send verification code</string>
+    <string name="sms_existed">verification codestillvalid</string>
+    <string name="sms_send_fail_toplimit">SMS verification code failed, reaching top limit of current day</string>
+    <string name="usr_wrong_code">wrong verification code</string>
+    <string name="usr_existed_phone">cell phone number existed</string>
+    <string name="usr_wrong_params">user parameter error</string>
+    <string name="usr_existed_nickname">user nickname existed</string>
+    <string name="not_exist_error">resources not available</string>
+    <string name="sn_has_binded">vehicle bound already, repeated binding not allowed</string>
+    <string name="sn_has_not_bind">vehicle not bound</string>
+    <string name="chart_label_torque">torque</string>
+    <string name="usr_not_existed">user account not existed</string>
+    <string name="usr_passwd_not_the_same">user name is inconsistent with theverification code or password</string>
+    <string name="usr_sns_has_binded_error">the third party account bound already, please unbind it first</string>
+
+
+    <string name="upgrade_check"><u>check upgrade</u></string>
+    <string name="tips_connect_device">please connect the bike first</string>
+    <string name="explore_mage">explore NEXGIM</string>
+    <string name="what_is_here">what can you do here?</string>
+    <string name="erg_course">power class</string>
+    <string name="route_imitate">route imitation</string>
+    <string name="mage_article">article</string>
+    <string name="save_video_error">failed to create video file in SD card</string>
+    <string name="device_not_connected_warn">bike not connected, exercise cannot be resumed</string>
+    <string name="target_riding">target riding</string>
+    <string name="video">video</string>
+    <string name="route">route</string>
+    <string name="device_disconnect">device not connected</string>
+    <string name="bluetooth_reconnect">Bluetooth disconnected, reconnecting…</string>
+    <string name="course_error">course download failed</string>
+    <string name="no_sd">no SDCard</string>
+    <string name="no_sd_card">Please install a SD card</string>
+    <string name="today">today</string>
+    <string name="this_week">this week</string>
+    <string name="this_month">this month</string>
+    <string name="course_train">course training</string>
+    <string name="power_train">power training</string>
+    <string name="real_riding">live-actionriding</string>
+    <string name="please_reconnect">equipment Bluetooth disconnected, please try again</string>
+    <string name="connect_time_out">equipment request timeout, please try again</string>
+    <string name="no_wifi">Not network available</string>
+    <string name="level_large_than_100">larger than 100</string>
+    <string name="level_90_100">90-100</string>
+    <string name="level_80_90">80-90</string>
+    <string name="level_70_80">70-80</string>
+    <string name="level_60_70">60-70</string>
+    <string name="level_less_than_60">smaller than 60</string>
+    <string name="power_course">power class</string>
+    <string name="video_class">video class</string>
+    <string name="route_course">route</string>
+    <string name="ftp_percent">%FTP</string>
+    <string name="connect_fail">connection failed</string>
+    <string name="check_reason">check causes</string>
+    <string name="ftp_value_dialog_msg">you haven’t done the riding capability test. Theexercise will </string>
+    <string name="donwloading">downloading</string>
+    <string name="downloadstart">download</string>
+    <string name="no_data_swipe">No data. pull down to refresh</string>
+    <string name="power_zero" translatable="false">00</string>
+    <string name="update_info_error">Failed to update user nickname and avatar</string>
+    <string name="start_challenge">start challenge</string>
+    <string name="not_found_device_tip5">⑤ <u>确认 "系统设置"-"位置信息" 已开启</u></string>
+    <string name="location_check">location info not started, set up or not</string>
+    <string name="goto_settings">go to set up</string>
+    <string name="go_to_connect">connect now</string>
+    <string name="no_connect">not now</string>
+    <string name="go_to_connect_tips">Bike not connected, connect now?</string>
+    <string name="un_upload">upload locally</string>
+    <string name="un_upload_click">records not uploaded, click to upload</string>
+    <string name="try_after_connecting">connecting, try again later</string>
+    <string name="current_ability">current riding capability is\n</string>
+    <string name="fastest_borad">the shortest time</string>
+    <string name="share_pic">share</string>
+
+    <string name="backgroud_music">background music</string>
+    <string name="know_yourself">know yourself first~</string>
+    <string name="evaluate">evaluate</string>
+    <string name="detail">detail</string>
+    <string name="clock_in_days">clock\nin</string>
+    <string-array name="share_pic_pager">
+        <item>short pic</item>
+        <item>long pic</item>
+    </string-array>
+
+
+    <string-array name="exercise_summary">
+        <item>All</item>
+        <item>Course</item>
+        <item>Route</item>
+    </string-array>
+
+    <string-array name="exercise_chart">
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+    </string-array>
+
+    <string-array name="exercise_amount_decs">
+        <item>Basically do not exercise,physical fitness zero-based</item>
+        <item>Sweating occasionally,it is not easy to stick to it</item>
+        <item>Have certain sports preferences,but on and off</item>
+        <item>Good physical fitness,exercise more than 3 times a week</item>
+    </string-array>
+
+    <string-array name="exercise_endurance_decs">
+        <item>Nothing at all,it feels very hard</item>
+        <item>I used to,but I don\'t insist</item>
+        <item>More enthusiastic.Keep it up all the time</item>
+    </string-array>
+    <string-array name="exercise_target_decs">
+        <item>Keep healthy and energetic</item>
+        <item>Lose weight and shape</item>
+        <item>Looking for the competition status</item>
+    </string-array>
+
+    <string-array name="zones">
+        <item>Zone1</item>
+        <item>Zone2</item>
+        <item>Zone3</item>
+        <item>Zone4</item>
+        <item>Zone5</item>
+        <item>Zone6</item>
+    </string-array>
+
+    <string-array name="zone_names">
+        <item>Warm-up recovery zone</item>
+        <item>Fat burning zone</item>
+        <item>Aerobic endurance zone</item>
+        <item>Physical critical zone</item>
+        <item>Anoxic endurance zone</item>
+        <item>Extreme sprint zone</item>
+    </string-array>
+
+    <string-array name="zone_range">
+        <item>(<![CDATA[<]]>56%)</item>
+        <item>(56%-76%)</item>
+        <item>(76%-91%)</item>
+        <item>(91%-106%)</item>
+        <item>(106%-121%)</item>
+        <item>(<![CDATA[>]]>121%)</item>
+    </string-array>
+
+    <string-array name="ftp_level">
+        <!--<item>新手水平</item>-->
+        <!--<item>初级水平</item>-->
+        <!--<item>业余水平</item>-->
+        <!--<item>高手水平</item>-->
+        <!--<item>精英水平</item>-->
+        <item> newbie level</item>
+        <item> beginner level</item>
+        <item> amateur level</item>
+        <item> professional level</item>
+        <item> elite level</item>
+    </string-array>
+
+    <string-array name="ftp_level_short">
+        <item> newbie</item>
+        <item> beginner</item>
+        <item> amateur</item>
+        <item> professional</item>
+        <item> elite</item>
+    </string-array>
+
+
+    <string name="title_activity_maps">Map</string>
+    <string name="recent_summary">Recent</string>
+    <string name="btn_next_time">Next time</string>
+    <string name="chart_empty">why~it\'s empty here!</string>
+
+</resources>

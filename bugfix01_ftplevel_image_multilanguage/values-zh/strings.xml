@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NEXGIM</string>
+    <string name="course_participant_count">%1$d人次完成课程</string>
+    <string name="start_train">开始训练</string>
+    <string name="not_train">已下线</string>
+    <string name="difficulty_data_unit">难度</string>
+    <string name="course_intro">课程介绍</string>
+    <string name="exit_app">再次点击退出App</string>
+
+    <string name="riding_ability">骑行力值</string>
+    <string name="send">发送</string>
+    <string name="china_mobile">+86</string>
+    <string name="already_have_account">已经有账号</string>
+    <string name="none_account">还没有账号</string>
+    <string name="authorization_setting">授权设置</string>
+    <string name="authorization_tip">为保护你的账号安全，请绑定手机号码</string>
+    <string name="next_time">不急，下次再说</string>
+    <string name="ok_start_sport">好的，马上开始</string>
+    <string name="know_sport_base">为确保让你获得更好的运动体验，我们还需要\n了解一下你现在的运动基础</string>
+    <string name="welcome_join">欢迎你的加入\n%s</string>
+    <string name="please_intro_yourself">请介绍一下自己</string>
+    <string name="intro_yourself_tip">是时候展示一下你的个性了</string>
+    <string name="get_vcode">获取验证码</string>
+    <string name="account_login">账号登录</string>
+    <string name="account_register">账号注册 </string>
+    <string name="go_register">去注册 </string>
+    <string name="already_mage_user">已经是用户?</string>
+    <string name="immediately_join">立即加入</string>
+    <string name="account_binding">%s账号绑定</string>
+    <string name="erg_course_plan_minute">%.0fmin</string>
+    <string name="erg_course_plan_second">%dsec</string>
+    <string name="erg_course_plan_ftp">%d%%FTP</string>
+    <string name="erg_course_plan_power">%.0fw</string>
+    <string name="sport_little_tip">练习小贴士</string>
+    <string name="riding_calorie">骑行卡路里</string>
+    <string name="course_project">课程计划</string>
+    <string name="power_unit">w</string>
+    <string name="rank_unit">名</string>
+    <string name="heart_rate">心率（bpm）</string>
+    <string name="pedalling_rate">踏频（rpm）</string>
+    <string name="sport_time_unit">m:s</string>
+    <string name="total_milage">总里程</string>
+    <string name="milage">里程 km</string>
+    <string name="distance_to_previous_one">距前一名</string>
+    <string name="speed">速度 km/h</string>
+    <string name="fat_burning">燃脂（kcal）</string>
+    <string name="section_time_format">%s / %s</string>
+    <string name="target">目标</string>
+    <string name="current_cadence">当前踏频</string>
+    <string name="please_wait_course_loading">请等待课程信息加载</string>
+    <string name="load_course_failed">加载课程失败</string>
+    <string name="erg_riding_grade_tip">下一阶段%s骑行%ds，目标%.0fw</string>
+    <string name="section_distribution">区间分布</string>
+    <string name="elevation_m">海拔/m</string>
+    <string name="save">保存</string>
+    <string name="device_have_been_linked">设备已被连接</string>
+    <string name="device_qrcode_bind_tip">1、请轻触圆扭按键，切换到蓝牙操作界面\n2、长按旋钮断开连接</string>
+    <string name="check_permission_reject">申请权限被拒绝</string>
+    <string name="check_permission_tip">APP运行需要相应的权限被拒绝，请到到设置页面开启权限</string>
+    <string name="scan_barcode_prompt">将旋钮上的二维码放入框内，即可自动扫描</string>
+    <string name="ble_disconnected_and_reconnect">蓝牙连接断开，正在重新连接...</string>
+    <string name="unstart_ble">未开启蓝牙</string>
+    <string name="start_ble_bind_device">请先打开蓝牙，以便连接健身车</string>
+    <string name="reconnect">重新连接</string>
+    <string name="connect_device">连接设备</string>
+    <string name="connecting">连接中...</string>
+    <string name="disconnect">断开连接</string>
+    <string name="unconnect_device">还没有连接健身车</string>
+    <string name="already_connect">已连接\"%s\"健身车</string>
+    <string name="edit">编辑</string>
+    <string name="scan_devices">搜索车辆</string>
+    <string name="bind">绑定</string>
+    <string name="no_bind_device">还没有绑定任何设备</string>
+    <string name="go_bind">去绑定</string>
+    <string name="binded">已绑定</string>
+    <string name="sport_time_length">运动时长</string>
+    <string name="complete">完成</string>
+    <string name="not_found_device_tip1">① 确认健身车在你的附近</string>
+    <string name="not_found_device_tip2">② <u>确保健身车处于未连接状态</u></string>
+    <string name="not_found_device_tip3">③ 检查健身车是否开机</string>
+    <string name="not_found_device_tip4">④ 重启蓝牙再试一次</string>
+    <string name="sport_time_complete_degree">时间完成度</string>
+    <string name="intensity_complete_degree">强度完成度</string>
+    <string name="synthesis_degree">综合得分</string>
+    <string name="take_photo">拍照</string>
+    <string name="photo_choose">从相册中选择</string>
+    <string name="registration_means_consent">注册即表示同意</string>
+    <string name="user_service">用户协议</string>
+    <string name="and">及</string>
+    <string name="privacy_clause">隐私条款</string>
+    <string name="go_login">去登录</string>
+    <string name="send_vcode_tip">我们将会发送验证到您的手机</string>
+    <string name="input_validation_code">输入验证码</string>
+    <string name="send_validation_code">发送验证码</string>
+    <string name="validation_code">验证码</string>
+    <string name="verification_code_send_to">已发送6位验证码至 +86 %s</string>
+    <string name="name_empty">名字不能为空</string>
+    <string name="regain_vcode">重新获取</string>
+    <string name="regain_vcode_count_down">重新获取(%d)</string>
+    <string name="qrcode_error">二维码无效</string>
+    <string name="find_device">发现健身车</string>
+    <string name="scan_bind">扫码绑定</string>
+    <string name="searching">正在搜索</string>
+    <string name="not_found_qrcode">找不到二维码？</string>
+    <string name="my_device">我的设备</string>
+    <string name="new_firmware">NEW</string>
+    <string name="firmware_update">固件升级</string>
+    <string name="after_sale">售后服务</string>
+    <string name="device_manage">设备管理</string>
+    <string name="device_information">设备信息</string>
+    <string name="add_device">添加设备</string>
+    <string name="scan_qrcode">扫描车身二维码</string>
+    <string name="no_device_around">没有发现设备</string>
+    <string name="retry">重试</string>
+    <string name="sport_count">运动次数</string>
+    <string name="sport_count_unit">次</string>
+    <string name="stop">停止</string>
+    <string name="history_detail_hr_nodevice_title">尚未连接心率设备</string>
+    <string name="history_detail_hr_nodevice_content">连接心率设备能够准确的监测您的身体状况，\n并利用分析功能提升训练效果</string>
+    <string name="history_detail_zone">Zone</string>
+    <string name="height">身高</string>
+    <string name="weight">体重</string>
+    <string name="birthday">生日</string>
+    <string name="next">下一步</string>
+    <string name="wifi_settings">选择健身车工作WiFi</string>
+    <string name="set_wifi_connecting">正在配置健身车Wi-Fi</string>
+    <string name="wifi_connected">健身车已接入Wi-Fi</string>
+    <string name="user_name_example">纽约市市委书记</string>
+    <string name="setting">设置</string>
+    <string name="logout">退出登录</string>
+    <string name="complete_user_message">完善个人信息</string>
+    <string name="set_name_hint">请输入昵称</string>
+    <string name="click_setting_icon">点击设置头像</string>
+    <string name="male">♂  男</string>
+    <string name="female">♀  女</string>
+    <string name="male_value">男</string>
+    <string name="female_value">女</string>
+    <string name="gender">性别</string>
+    <string name="input_user_info_tip">以下信息有助于我们为你设计训练内容，\n别担心，我们会帮你保密</string>
+    <string name="height_unit">cm</string>
+    <string name="weight_unit">kg</string>
+    <string name="riding_power_setting">骑行能力设定</string>
+    <string name="start_sport">开始运动</string>
+    <string name="clearBoundDevice">清除绑定设备(临时)</string>
+    <string name="update_error">升级失败！请尝试重启设备后再次升级</string>
+    <string name="updating">正在升级</string>
+    <string name="device_name">设备名称</string>
+    <string name="device_wifi">设备WiFi</string>
+    <string name="wifi_connect_error">健身车WiFi配置失败</string>
+    <string name="wifi_connect_error_tips">1.请确认输入的WiFi密码无误 \n2.请确认WiFi信号稳定</string>
+    <string name="riding_mileage">骑行里程</string>
+    <string name="vin">车架号</string>
+    <string name="warranty_period">保修期</string>
+    <string name="electrical_machinery_sn">电机控制器SN码</string>
+    <string name="electrical_machinery_version">电机控制器版本号</string>
+    <string name="device_watch_sn">仪表盘SN码</string>
+    <string name="device_watch_version">仪表盘版本号</string>
+    <string name="find_new_firmware">发现新固件</string>
+    <string name="firmware_update_content">本次固件升级内容</string>
+    <string name="immediately_update">立即升级</string>
+    <string name="not_connect_device_tip">请先连接健身车，以获取最新设备信息</string>
+    <string name="exercise_record">运动记录</string>
+    <string name="sport_all_time">运动总时长</string>
+    <string name="my_sport">我的运动</string>
+    <string name="sport_power">运动能力</string>
+    <string name="mage_school">NEXGIM 学院</string>
+    <string name="main_home">首页</string>
+    <string name="sport">发现</string>
+    <string name="my">我的</string>
+    <string name="personal_information">个人资料</string>
+    <string name="change_avatar">头像</string>
+    <string name="name">昵称</string>
+    <string name="xiaomi_login_cancel">取消小米授权</string>
+    <string name="account_manage">账号管理</string>
+    <string name="help_and_feedback">帮助与反馈</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="about">关于</string>
+    <string name="other_login_account">第三方账号绑定</string>
+    <string name="change_phone">更换手机</string>
+    <string name="weixin">微信</string>
+    <string name="weixin_uninstall">手机未安装微信</string>
+    <string name="weixin_account">微信账号</string>
+    <string name="weixin_denied">拒绝微信授权</string>
+    <string name="weixin_user_cancel">取消微信授权</string>
+    <string name="xiaomi">小米</string>
+    <string name="xiaomi_account">小米账号</string>
+    <string name="submit_unbind">确认解除绑定？</string>
+    <string name="unbind">解除绑定</string>
+    <string name="not_bind">尚未绑定</string>
+    <string name="before_phone">旧手机号</string>
+    <string name="new_phone">新手机号</string>
+    <string name="bind_new_phone">绑定新手机号</string>
+    <string name="phone_lose_call_service">手机丢失或停用联系客服</string>
+    <string name="submit">提交</string>
+    <string name="mage_privacy"> 和 <u>隐私政策</u></string>
+    <string name="device_binding_guide">开启你的骑行世界</string>
+    <string name="check_your_capability">你还没有进行过测试哦</string>
+    <string name="know_your_capability">了解自己，才能针对性训练</string>
+    <string name="go_assess">现在进行</string>
+    <string name="save_target">确定目标</string>
+    <string name="setting_target_distance">设定骑行里程（km）</string>
+    <string name="no_sport_summary">暂无运动记录</string>
+    <string name="k_unit">kcal</string>
+    <string name="ride_distance">骑行里程</string>
+    <string name="total_calorie">累计消耗</string>
+    <string name="sport_record_distance_float">%.1fkm</string>
+    <string name="sport_record_calorie">%dkcal</string>
+    <string name="sport_record_power">%.0fw</string>
+    <string name="sport_summary_decs">上次训练 %d 天前</string>
+    <string name="sport_summary_decs_ride">上次骑行 %d 天前</string>
+    <string name="often_question">常见问题</string>
+    <string name="proposal_and_feedback">建议与反馈</string>
+    <string name="proposal_and_feedback_tip">请尽可能详细的描述问题原因，现象等信息</string>
+    <string name="setting_target_time">设定骑行时长 (min)</string>
+    <string name="setting_target_calorie">设定卡路里消耗 (kcal)</string>
+    <string name="set_target_with_underline">&lt;u>设置目标&lt;u> </string>
+    <string name="qrn_amount_of_exercise">平时的运动量如何?</string>
+    <string name="qrn_amount_of_exercise_des">首先，我们需要了解你的体能状况?</string>
+    <string name="qnr_endurance">是否接触过耐力运动?</string>
+    <string name="qnr_endurance_decs">比如，跑步、骑车或者游泳，每次运动时长在30分钟以上</string>
+    <string name="qnr_target">你接下来的运动目标是?</string>
+    <string name="qnr_target_decs">给自己定一个小目标，然后努力实现它</string>
+    <string name="ftp_rang_value">%dw-%dw</string>
+    <string name="ftp_rang_low"><![CDATA[<]]>%dw</string>
+    <string name="ftp_rang_high"><![CDATA[>]]>%dw</string>
+    <string name="sport_evaluate">运动评价</string>
+    <string name="freeriding_started_intro">已开始记录数据</string>
+    <string name="freeriding_wait_to_start_intro">点击一下，马上开始</string>
+    <string name="ftp_threshold_desc">FTP %dw 表示你全力且稳定的连续踩踏1小时可以 输出的最高平均功率，是衡量骑行运动的重要指标。 通过它能够找到合适你的训练强度区间，实现科学 数字化训练。环法选手一般具备400w以上的FTP。</string>
+    <string name="ftp_threshold_value">当前骑行力 %dw</string>
+    <string name="freeriding">目标骑行</string>
+    <string name="freeriding_end">目标骑行结束</string>
+    <string name="bluetooth_guide">请先打开蓝牙，以便连接健身车</string>
+    <string name="free_riding_tip">目标已快达到，请设置更大的目标或者先结束单前目标骑</string>
+    <string name="cache_clean_success">缓存清除完成</string>
+    <string name="feedback_success">反馈成功</string>
+    <string name="please_stop_free_riding">目标骑未结束，请先结束目标骑</string>
+    <string name="wifi_pwd_hint">请输入WiFi密码</string>
+    <string name="refresh">刷新</string>
+    <string name="route_completed_number">%d人次完成路线</string>
+    <string name="finish_riding">你真棒，顺利完成目标！</string>
+    <string name="unfinish_riding">哎呦，没有完成目标哦！</string>
+    <string name="check_detail">查看详情</string>
+    <string name="sport_report">运动报告</string>
+    <string name="route_info">路线信息</string>
+    <string name="all_course">全部课程</string>
+    <string name="kcal_summary">本周已消耗了%dkcal</string>
+    <string name="sport_consume" formatted="false">相当于%s的热量。</string>
+    <string name="sport_consume1">本次运动消耗了</string>
+    <string name="energy_consume">能量消耗</string>
+    <string name="sport_summary_decs_today">今天进行过训练</string>
+    <string name="sport_summary_decs_today_ride">今天进行过骑行</string>
+    <string name="first_ride_tips">开启你的骑行世界</string>
+    <string name="not_first_ride_tips">继续你的骑行世界</string>
+    <string name="connect_guide">连接向导</string>
+    <string name="unconnected">未连接</string>
+    <string name="bind_devices">绑定设备</string>
+    <string name="tips_start_riding">去开始你的第一次骑行吧!</string>
+    <string name="device_connected">已连接\"MG03健身车\"</string>
+    <string name="ftp_evalue">运动概况评估</string>
+    <string name="ftp_test">FTP能力测试</string>
+    <string name="time_length">时长</string>
+    <string name="return_to_ride">返回首页即可开始"目标骑"</string>
+    <string name="bluetooth_disable">未开启蓝牙</string>
+    <string name="please_enable_bluetooth">请先打开蓝牙，以便连接健身车</string>
+    <string name="exmaple_four">4分钟</string>
+    <string name="example_ftp">50%FTP</string>
+    <string name="example_power">180w</string>
+    <string name="desc_well">训练有素，体能较好</string>
+    <string name="my_zone">我的功率分区</string>
+    <string name="train_purpose">不同的区间强度，都有不同的训练意义</string>
+    <string name="current_ftp">当前FTP:</string>
+    <string name="current_level">你现在处于</string>
+    <string name="professional">职业水平,</string>
+    <string name="example_ftp_desc">骑行能力约为226w</string>
+    <string name="ftp_comment">能力点评</string>
+    <string name="ftp_zone_detail">了解我的功率分区</string>
+    <string name="re_evalue">重新评估</string>
+    <string name="example_zone">Zone1</string>
+    <string name="zone_warm">暖身区</string>
+    <string name="example_rpm">RPM70</string>
+    <string name="current_login_account">当前登录账号</string>
+
+    <string name="example_calorie">376kcal</string>
+    <string name="example_rider_decs">勤奋的骑手</string>
+    <string name="example_rank">/249</string>
+    <string name="example_torque">20.5</string>
+    <string name="example_participant">345人已参加</string>
+    <string name="example_feekback">0/1000</string>
+    <string name="example_page">1/3</string>
+    <string name="ascend">累计爬升</string>
+    <string name="distance_unit_meter">m</string>
+    <string name="route_decs">路线介绍</string>
+    <string name="choose_course">从这里挑选你的课程</string>
+    <string name="get_a_device">三分钟快速get健身车</string>
+    <string name="total_distance">累计骑行</string>
+    <string name="start_uper">START</string>
+    <string name="target_tips">挑战骑行小目标</string>
+    <string name="start_ride">开始骑行</string>
+    <string name="example_calorie_equal">≈2x</string>
+    <string name="today_sport">今日运动</string>
+    <string name="today_calorie">今日消耗</string>
+    <string name="week_sport">本周运动</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="course_join_person_count">%d人已参加</string>
+    <string name="change_success">保存成功</string>
+    <string name="other_login">其他登录方式</string>
+    <string name="login_title">登录后更精彩</string>
+    <string name="unregister_auto_login">未注册手机验证后自动登录</string>
+    <string name="binding_phone">绑定手机号</string>
+    <string name="please_binding_phone">为保护你的账号安全，请绑定手机号码</string>
+    <string name="after_sale_number">400-090-9628</string>
+    <string name="mage_agreement"><u>用户协议</u> </string>
+    <string name="mage_copyright">Copyright © 2019 MageFitness</string>
+    <string name="dialog_agree_yes">同意</string>
+    <string name="dialog_agree_message" > <![CDATA[欢迎您来到 NEXGIM！<br> 我们依据最新法律法规要求，更新了《<font color="#03E0C6"><a href="https://static.qiteck.net/license.html" >用户协议</a></font>》、《<font color="#66DDC7"><a href="https://static.qiteck.net/privacy.html">  隐私政策</a></font>》。同时，NEXGIM 在使用中需要连接网络、定位、开启蓝牙。您需阅读并同意以上政策条款方可使用本软件。]]> </string>
+    <string name="statement">声明与条款</string>
+    <string name="exit">退出</string>
+    <string name="customer_hotline">客服热线</string>
+    <string name="hotline_time">服务时间</string>
+    <string name="hotline_time_detail">9:00-18:00</string>
+    <string name="contact_hotline">联系客服</string>
+    <string name="logout_comfirm">确认退出登录?</string>
+    <string name="network_unable">当前网络无连接，请确认是否开启</string>
+    <string name="cache_manage">缓存管理</string>
+    <string name="clear_local_cache">清除本地缓存</string>
+    <string name="auto_video_cache">自动缓存视频</string>
+    <string name="video_cache_tip">开启后，播放过的视频不再重新加载</string>
+    <string name="already_new_version">已经是最新版本了</string>
+    <string name="skip">跳过</string>
+    <string name="user_infor_skip">课程、路线等个性化功能需要参考您的个人信息，是否立即完善？</string>
+    <string name="immediately_complete">立即完善</string>
+    <string name="not_complete">待完善</string>
+
+
+
+
+
+    <!-- erg相关 -->
+
+
+    <string name="upgrade_check"><u>检查更新</u></string>
+    <string name="tips_connect_device">请先连接健身车</string>
+    <string name="explore_mage">探索 NEXGIM</string>
+    <string name="what_is_here">在这里可以练什么?</string>
+    <string name="erg_course">功率课堂</string>
+    <string name="route_imitate">路线模拟</string>
+    <string name="mage_article">NEXGIM 文章</string>
+    <string name="save_video_error">在SD卡中创建视频文件夹失败了</string>
+    <string name="device_not_connected_warn">健身车已断开连接，无法恢复运动</string>
+    <string name="target_riding">目标骑</string>
+    <string name="video">视频</string>
+    <string name="route">路线</string>
+    <string name="device_disconnect">设备未连接</string>
+    <string name="bluetooth_reconnect">蓝牙连接断开，正在重新连接…</string>
+    <string name="course_error">加载课程失败</string>
+    <string name="no_sd">没有SDCard</string>
+    <string name="no_sd_card">Please install a SD card</string>
+    <string name="today">今日</string>
+    <string name="this_week">本周</string>
+    <string name="this_month">本月</string>
+    <string name="course_train">课程训练</string>
+    <string name="power_train">功率训练</string>
+    <string name="real_riding">实景骑行</string>
+    <string name="please_reconnect">设备蓝牙连接已断开，请重试</string>
+    <string name="connect_time_out">设备请求超时，请重试</string>
+    <string name="no_wifi">附近没有可用网络</string>
+    <string name="level_large_than_100">大于100</string>
+    <string name="level_90_100">90-100</string>
+    <string name="level_80_90">80-90</string>
+    <string name="level_70_80">70-80</string>
+    <string name="level_60_70">60-70</string>
+    <string name="level_less_than_60">小于60</string>
+    <string name="power_course">功率课堂</string>
+    <string name="video_class">视频课程</string>
+    <string name="route_course">路线挑战</string>
+    <string name="ftp_percent">%FTP</string>
+    <string name="connect_fail">连接失败</string>
+    <string name="check_reason">查看原因</string>
+    <string name="ftp_value_dialog_msg">你还没有进行过骑行力测试，本次运动将以初始骑行力值匹配练习强度，是否继续?</string>
+    <string name="donwloading">下载中</string>
+    <string name="downloadstart">下载</string>
+    <string name="no_data_swipe">暂无数据，下拉刷新试试</string>
+    <string name="update_info_error">更新用户昵称和头像失败</string>
+    <string name="start_challenge">开始挑战</string>
+    <string name="not_found_device_tip5">⑤ <u>确认 "系统设置"-"位置信息" 已开启</u></string>
+    <string name="location_check">位置信息未开启，是否去设置</string>
+    <string name="goto_settings">去设置</string>
+    <string name="go_to_connect">立即连接</string>
+    <string name="no_connect">暂不</string>
+    <string name="go_to_connect_tips">还未连接健身车，是否立即连接?</string>
+    <string name="un_upload">本地有</string>
+    <string name="un_upload_click">条记录未上传，点击上传</string>
+    <string name="try_after_connecting">连接中，请稍后再试</string>
+    <string name="current_ability">当前骑行力为</string>
+    <string name="fastest_borad">最快时间</string>
+
+
+    <string name="you_can_play_other">你可以在后台播放自己喜欢的音乐</string>
+    <string name="share_pic">分享图片</string>
+    <string name="music_is_off">背景音乐已关闭</string>
+    <string name="current_music">当前推荐音乐</string>
+    <string name="backgroud_music">背景音乐</string>
+    <string name="know_yourself">运动前先了解一下自己~</string>
+    <string name="evaluate">马上评估</string>
+    <string name="detail">详细了解</string>
+    <string name="clock_in_days">连续打卡</string>
+
+    <string-array name="exercise_summary">
+        <item>全部</item>
+        <item>课程</item>
+        <item>路线</item>
+    </string-array>
+
+    <string-array name="exercise_chart">
+        <item>日</item>
+        <item>周</item>
+        <item>月</item>
+    </string-array>
+
+    <string-array name="exercise_amount_decs">
+        <item>基本不运动，体能零基础</item>
+        <item>偶尔出出汗，不容易坚持</item>
+        <item>有一定的运动喜好，但断断续续</item>
+        <item>体能较好，每周运动3次以上</item>
+    </string-array>
+
+    <string-array name="exercise_endurance_decs">
+        <item>完全没有，感觉很辛苦</item>
+        <item>曾经有过，但目前没有坚持</item>
+        <item>比较热衷，一直保持</item>
+    </string-array>
+    <string-array name="exercise_target_decs">
+        <item>保持健康和活力</item>
+        <item>减肥塑形</item>
+        <item>寻找比赛状态</item>
+    </string-array>
+
+    <string-array name="zones">
+        <item>Zone1</item>
+        <item>Zone2</item>
+        <item>Zone3</item>
+        <item>Zone4</item>
+        <item>Zone5</item>
+        <item>Zone6</item>
+    </string-array>
+
+    <string-array name="zone_names">
+        <item>热身恢复区</item>
+        <item>脂肪燃烧区</item>
+        <item>有氧耐力区</item>
+        <item>体能临界区</item>
+        <item>无氧耐力区</item>
+        <item>极限冲刺区</item>
+    </string-array>
+
+    <string-array name="zone_range">
+        <item>(<![CDATA[<]]>56%)</item>
+        <item>(56%-76%)</item>
+        <item>(76%-91%)</item>
+        <item>(91%-106%)</item>
+        <item>(106%-121%)</item>
+        <item>(<![CDATA[>]]>121%)</item>
+    </string-array>
+
+    <string-array name="ftp_level">
+        <item>新手水平</item>
+        <item>初级水平</item>
+        <item>业余水平</item>
+        <item>高手水平</item>
+        <item>精英水平</item>
+    </string-array>
+
+    <string-array name="ftp_level_short">
+        <item>新手</item>
+        <item>初级</item>
+        <item>业余</item>
+        <item>高手</item>
+        <item>精英</item>
+    </string-array>
+
+
+    <string name="title_activity_maps">Map</string>
+    <string name="recent_summary">最近练习</string>
+    <string name="btn_next_time">下次再说</string>
+    <string name="chart_empty">咦~这里空空如也!</string>
+</resources>

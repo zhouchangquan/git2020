@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/report_window_background"
+        android:orientation="vertical"
+        tools:context=".ui.register.QnrAblilityResultFragment">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/status_bar_height"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/sport_power"
+                android:textColor="@color/white"
+                android:textSize="@dimen/tool_bar_text_size"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/imgClose"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/imgClose" />
+
+            <ImageView
+                android:id="@+id/imgClose"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="17dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_close_white" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolBar">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--<View-->
+                <!--android:id="@+id/imgBg"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="380dp"-->
+                <!--android:background="@color/blue_bg"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+                <ImageView
+                    android:id="@+id/imgFtpBg"
+                    android:layout_width="264dp"
+                    android:layout_height="264dp"
+                    android:translationZ="0dp"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_ftp_level_bg" />
+
+                <ImageView
+                    android:id="@+id/imgLevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/riding_ability_1"
+                    android:translationZ="1dp"
+
+                    app:layout_constraintBottom_toBottomOf="@id/imgFtpBg"
+                    app:layout_constraintEnd_toEndOf="@id/imgFtpBg"
+                    app:layout_constraintStart_toStartOf="@id/imgFtpBg"
+                    app:layout_constraintTop_toTopOf="@id/imgFtpBg" />
+
+                <TextView
+                    android:id="@+id/ftpLevelShort"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="beginner"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@id/imgLevel"
+                    app:layout_constraintEnd_toEndOf="@id/imgLevel"
+                    app:layout_constraintStart_toStartOf="@id/imgLevel"
+                    android:layout_marginBottom="18dp"
+                    android:translationZ="2dp"
+                    />
+
+
+                <!--<TextView-->
+                <!--android:id="@+id/txtLevel"-->
+                <!--style="@style/QnrText"-->
+                <!--android:text="@string/current_level"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toTopOf="parent"-->
+                <!--android:layout_marginTop="60dp"/>-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/txtLevelDecs"-->
+                <!--style="@style/QnrText.Big"-->
+                <!--android:text="@string/professional"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@id/txtLevel" />-->
+
+                <TextView
+                    android:id="@+id/txtLevelValue"
+                    style="@style/QnrText.Big"
+                    android:gravity="center"
+                    android:text="@string/example_ftp_desc"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgFtpBg" />
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/txtComment"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingLeft="35dp"-->
+                    <!--android:paddingTop="35dp"-->
+                    <!--android:paddingRight="35dp"-->
+                    <!--android:text="@string/ftp_comment"-->
+                    <!--android:textColor="@color/title_normal"-->
+                    <!--android:textSize="20sp"-->
+                    <!--android:textStyle="bold"-->
+                    <!--app:layout_constraintStart_toStartOf="parent"-->
+                    <!--app:layout_constraintTop_toBottomOf="@id/imgLevel" />-->
+
+                <TextView
+                    android:id="@+id/txtThreshold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:lineSpacingExtra="@dimen/text_line_space"
+                    android:paddingLeft="35dp"
+                    android:paddingRight="35dp"
+                    android:text="@string/ftp_threshold_desc"
+                    android:textColor="#98A2AD"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/txtLevelValue" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/btnNext"
+            style="@style/PrimaryButtonStyle"
+            android:layout_marginBottom="50dp"
+            android:text="@string/ftp_zone_detail"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/btnRetry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/re_evalue"
+            android:textColor="@color/chart_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

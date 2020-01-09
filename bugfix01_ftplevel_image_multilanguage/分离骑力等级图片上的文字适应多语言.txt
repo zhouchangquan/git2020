@@ -1,0 +1,89 @@
+遗留问题：
+有没有风格模板可以使用？比如字体、字体颜色和大小，等等。
+
+        val ftpLevelShortNames = resources.getStringArray(R.array.ftp_level_short)
+引用：
+        dataBinding.ftpLevelShort.text = ftpLevelShortNames[i]
+
+
+替换图片（图片1-5）
+C:\Users\13959\magefitness\mage-android\app\src\main\res\drawable-xxhdpi\riding_ability_1.png
+
+
+新增字符串
+C:\Users\13959\magefitness\mage-android\app\src\main\res\values\strings.xml
+    <string-array name="ftp_level_short">
+        <item> newbie</item>
+        <item> beginner</item>
+        <item> amateur</item>
+        <item> professional</item>
+        <item> elite</item>
+    </string-array>
+
+C:\Users\13959\magefitness\mage-android\app\src\main\res\values-zh\strings.xml
+    <string-array name="ftp_level_short">
+        <item>新手</item>
+        <item>初级</item>
+        <item>业余</item>
+        <item>高手</item>
+        <item>精英</item>
+    </string-array>
+
+
+C:\Users\13959\magefitness\mage-android\app\src\main\res\values-zh-rHK\strings.xml
+    <string-array name="ftp_level_short">
+        <item>新手</item>
+        <item>初級</item>
+        <item>業余</item>
+        <item>高手</item>
+        <item>精英</item>
+    </string-array>
+顺便改了这个：
+    <string-array name="ftp_level">
+        <item>新手水平</item>
+        <item>初級水平</item>
+        <item>業余水平</item>
+        <item>高手水平</item>
+        <item>精英水平</item>
+
+C:\Users\13959\magefitness\mage-android\app\src\main\res\values-zh-rTW\strings.xml
+    <string-array name="ftp_level_short">
+        <item>新手</item>
+        <item>初級</item>
+        <item>業余</item>
+        <item>高手</item>
+        <item>精英</item>
+    </string-array>
+顺便改了这个：
+    <string-array name="ftp_level">
+        <item>新手水平</item>
+        <item>初級水平</item>
+        <item>業余水平</item>
+        <item>高手水平</item>
+        <item>精英水平</item>
+    </string-array>
+
+ftp_level_fragment.xml
+                <TextView
+                    android:id="@+id/ftpLevelShort"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="beginner"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@id/imgLevel"
+                    app:layout_constraintEnd_toEndOf="@id/imgLevel"
+                    app:layout_constraintStart_toStartOf="@id/imgLevel"
+                    android:layout_marginBottom="18dp"
+                    />
+
+
+FtpLevelFragment.kt
+增加一行：
+            dataBinding.ftpLevelShort.text = resources.getStringArray(R.array.ftp_level_short)[it]
+
+
+ic_ftp_level_bg.xml
+晓龙替换了背景图片，大小264×264
+
+
